@@ -69,9 +69,10 @@ function Generator() {
               overflow={'hidden'}
               pos="relative"
               role="group"
+              bg={useColorModeValue('gray.300', 'gray.700')}
             >
               <Iframe
-                url="http://www.youtube.com/embed/xDMP3i36naA"
+                url={value}
                 width="100%"
                 height="250px"
                 id="c-iframe"
